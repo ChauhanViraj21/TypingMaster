@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+nav {
+    background-color: hsl(215, 19%, 13%) !important;
+    border-radius: 0 0 20px 20px;
+    border-bottom: 2px solid whitesmoke;
+
+}
+
+a{
+    text-decoration: none
+    ;
+}
+button {
+    height: 70px;
+
+    width: 70%;
+    margin-top: 10px;
+}
+
+.form-control::placeholder {
+    color: rgba(216, 205, 204, 0.548) !important;
+}
+
+.form-control::ms-input-placeholder {
+    color: rgba(232, 250, 118, 0.548) !important;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: hsl(215, 19%, 13%);
+    color: white;
+    border-top: 2px solid whitesmoke;
+}
+
+/* #restime
+{
+    display:none;
+} */
+
+.abc {
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    border-color: white;
+}
+
+textarea::placeholder {
+    color: blue;
+}
+
+textarea {
+    height: 350px !important;
+    width: 98%;
+    color: white !important;
+    font-size: x-large !important;
+    background-color: hsl(215, 19%, 13%) !important;
+}
+.progress{
+height: 5px !important;
+}
