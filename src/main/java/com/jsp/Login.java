@@ -53,6 +53,7 @@ public class Login extends HttpServlet {
                     RequestDispatcher dispatcher = req.getRequestDispatcher("Login.html");
                     dispatcher.include(req, resp);
                     out.println("<h2 align='center'>Incorrect password. Please try again.</h2>");
+                    System.out.println("Adding H2 Tag");
                 }
             } else {
                 RequestDispatcher dispatcher = req.getRequestDispatcher("Login.html");
