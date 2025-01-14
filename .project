@@ -41,4 +41,15 @@
 			<location>V:/Jspiders/JavaScript/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css</location>
 		</link>
 	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1735826898287</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 </projectDescription>
