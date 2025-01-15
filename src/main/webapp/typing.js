@@ -1,19 +1,4 @@
-window.onload = async () => {
-            // Check if cookies exist to validate the session
-            const isValidSession = checkCookies();
-            if (!isValidSession) {
-                // Redirect to Login page if cookies are invalid or missing
-                window.location.href = "Login.html";
-            }
-        };
 
-        function checkCookies() {
-            const cookies = document.cookie.split('; ');
-            const emailCookie = cookies.find(cookie => cookie.startsWith('cookie1='));
-            const passCookie = cookies.find(cookie => cookie.startsWith('cookie2='));
-            
-            return emailCookie && passCookie;  // Return true if both cookies exist
-        }
 //btnids
 let btn1 = document.getElementById('one');
 let btn2 = document.getElementById('two');
